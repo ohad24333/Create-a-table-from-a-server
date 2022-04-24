@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-12">
+        <h1 class="mb-5">User Detailes</h1>
+        <div class="mb-3">Id : {{user.id}}</div>
+        <div class="mb-3">First Name : {{user.name.firstname}}</div>
+        <div class="mb-3">Last Name : {{user.name.lastname}}</div>
+        <div class="mb-3">Email : {{user.email}}</div>
+    </div>
+    <div>
+        <app-address [address]="user.address"></app-address>
+    </div>
+</div>
